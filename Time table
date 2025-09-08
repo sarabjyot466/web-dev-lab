@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="timetsble.css">
+    <title>Time Table CSE 2024</title>
+
+    <style>
+        *{
+            text-align: center;
+            margin: 2px;
+        }
+        table{
+            border: 2px solid black;
+        }
+        th,td{
+    border-right: 2px black solid;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+
+}
+    </style>
+</head>
+<body>
+    <h1> GOVT. COLLEGE OF ENGINEERING & TECHNOLOGY, JAMMU</h1>
+    <h4>Time Table of B.Tech 3rd Semester of Computer Science and Engineering Batch 2024 w.e.f  1st August 2025</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Period</th> 
+                <th>9:00-10:00</th>
+                <th>10:00-11:00</th>
+                <th>11:00-12:00</th>
+                <th>12:00-1:00</th>
+                <th>1:00-2:00</th>
+                <th>2:00-3:00</th>
+                <th>3:00-4:00</th>
+                <th>4:00-5:00</th>
+            </tr>          
+        </thead>        
+        <tbody>           
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td
+                 rowspan="2">Digital System Design <br>(AA4)
+                </td>
+                <td 
+                rowspan="2">Web Technology<br>(YA)
+            </td>
+                <td 
+                rowspan="2">Enterpreneurship and bussiness strategies<br>(HUM-AA)
+            </td>
+                <td
+                 rowspan="2">Object Oriented Programming using C++<br>(TUI)
+                </td>
+                <td
+                 rowspan="9">B<br>R<br>E<br>A<br>K
+                </td>
+                <td
+                 rowspan="2">Mathematics-III
+                </td>
+                <td
+                 colspan="2"> Object Oriented C++ Lab 
+                </td>
+
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                     Web Technology lab
+                    </td>
+
+            </tr>
+
+        <tr>
+            <td>
+                    Tuesday
+            </td>
+            <td>
+                Enterpreneurship and bussiness strategies
+             </td>
+                <td>
+                    Object Oriented Programming using C++
+                </td>
+                    <td colspan="2">
+                        Digital system Design Lab<br>(AA4)<br>MOOC
+                    </td>
+                    <td>Web technology<br>(YA)</td>
+                    <td>Mathematics-III<br>(HR)</td>
+                    <td>Training Placement & Counselling
+                    </td>   
+        </tr>
+
+            <tr>
+                <td rowspan="2">Wednesday</td>
+                <td rowspan="2">computer Organisation &Arcitecture<br>(AA-3)</td>
+                <td rowspan="2">Object Oriented Programming using C++<br>(TUI)</td>
+                <td colspan="2">
+                    Object Oriented Programming using C++ Lab<br>(TUI/MP)computer programming lab</td>
+                    <td>Digital System Design<br>(T)<br>(AA4)</td>
+                    <td rowspan="2">Enterpreneur shipand business Strategies<br>(HUM-AA)</td>
+                    <td rowspan="2">Doubt clearing class</td>
+           </tr>
+
+               <tr>
+                        <td colspan="2">Web Technology Lab<br>(YA/SK)Central computing facility Lab</td>
+                        <td>Computer Organisation &Architecture(T)<br>(AA-3)</td>
+               </tr>
+
+               <tr>
+                        <td rowspan="2">THURSDAY</td>
+                        <td >Mathematics-III<br>(T)(HS)</td>
+                        <td rowspan="2">Cyber Ethicks &laws<br>(ND)</td>
+                        <td >Web Technology (T)<br>(YA)</td>
+                        <td >Computer Organisation &Arcitecture(T)<br>(AA-3)</td>
+                        <td rowspan="2">Digital System Design<br>(AA4)</td>
+                        <td colspan="2">Digital Design System Lab<br>(AA-3)</td>
+               </tr>
+
+                <tr>
+                    <td>Enterpreneurship and business <br>  </td>
+                    <td >Object Oriented Programming using C++</td>
+                    <td>Digital System Design</td>
+                    <td colspan="2">MOOC</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">FRIDAY</td>
+                    <td>
+                        Object Oriented Programming Using c++
+                    </td>
+                    <td rowspan="2">Digital system design</td>
+                    <td rowspan="2">Mathematic-III</td>
+                    <td>Enterpreneurship and bussiness strategies</td>
+                    <td rowspan="2">Cyber Ethics</td>
+                    <td rowspan="2">Computer organisation and arcitecture</td>
+                    <td rowspan="2">Library</td>
+
+                </tr>
+                <tr>
+                    <td>Web Technology</td>
+                    <td>Mathematics-III<br>(HS)</td>
+                    <td></td>
+                </tr>
+
+                    </tbody>
+    </table>
+</body>
+</html>
