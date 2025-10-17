@@ -1,0 +1,71 @@
+img{
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+.sarab{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    width: 280px;
+}
+#name{
+    text-align: left;
+    margin:20px;
+    margin-bottom: 0px;
+}
+#prof{
+    text-align: left;
+    margin: 20px;
+    margin-top: 0px;
+    
+}
+#contact{
+    text-align: left;
+    margin: 20px;
+     margin-bottom: 0px;
+}
+#num{
+ text-align: left;
+    margin: 20px;
+     margin-bottom: 0px;
+}
+#skills{
+     text-align: left;
+    margin: 20px;
+     margin-bottom: 0px;
+}
+#skill{
+     text-align: left;
+    margin: 20px;
+     margin-bottom: 0px;
+}
+.lan{
+     text-align: left;
+    margin: 20px;
+     margin-bottom: 0px;
+}
+.hob{
+     text-align: left;
+    margin: 20px;
+     margin-bottom: 0px;
+}
+.profile{
+    color:black;
+    background-color: lightgrey;
+    width: 400px;
+    text-align: center;
+}
+#container{
+    display: flex;
+    
+}
+#i{
+    text-align: left;
+}
+#work{
+    text-align: left;
+    margin-top: 0;
+}
+    
