@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registartion Form by Sarabjyot Singh</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1> Registartion Form</h1>
+
+    <form>
+
+        <label for="name">Name<br>
+            <input type="text" placeholder="Enter username" id="username" >
+         </label> 
+         <br>
+
+         <label for="email">Email</label><br>
+            <input type="email" placeholder="Enter email" id="email" >
+         </label> 
+         <br>
+
+           <label for="password">Password</label><br>
+            <input type="password" placeholder="Enter password" id="password" >
+         </label> 
+         <br>
+
+           <label for="cpassword">Confirm Password<br>
+            <input type="text" placeholder="Confirm Password" id="username" >
+         </label> 
+
+         <h3>Select your gender</h3>
+         <input type="radio" id="male" name="gender">
+         <label for="male">Male</label>  
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <h3>Select your Courses</h3>
+        <input type="checkbox" id="cse">
+        <label for="cse">CSE</label>
+<br>
+        <input type="checkbox" id="civil">
+        <label for="civil">Civil</label>
+<br>
+        <input type="checkbox" id="mech">
+        <label for="mech">Mech</label>
+<br>
+        <input type="checkbox" id="electrical">
+        <label for="electrical">Electrical</label>
+<br>
+
+        <h3>Select your city</h3>
+        <select>
+            <option>Jammu</option>
+            <option>Samba</option>
+            <option>Udhampur</option>
+        </select>
+<br>
+<br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
