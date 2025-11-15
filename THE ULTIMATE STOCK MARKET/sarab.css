@@ -1,0 +1,845 @@
+/* -------------------- GLOBAL STYLES -------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #222;
+}
+
+/* -------------------- HEADER -------------------- */
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #0048ff, #0099ff);
+    color: rgb(0, 0, 0);
+}
+
+/* -------------------- TOP NAVBAR -------------------- */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+nav ul li {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    color: yellow;
+}
+
+/* -------------------- SECOND NAV (Links) -------------------- */
+.nav-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: #fff3f3;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background: #555;
+    transform: scale(1.05);
+}
+
+/* -------------------- CTA BUTTONS -------------------- */
+.cta-buttons a {
+    text-decoration: none;
+    background: #ff6600;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    margin: 10px;
+    display: inline-block;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.cta-buttons a:hover {
+    background: #ff4500;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* -------------------- HERO SECTION -------------------- */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgb(0, 0, 0);
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.hero h4 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* -------------------- FEATURES TABLE -------------------- */
+.features {
+    text-align: center;
+    padding: 30px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #000;
+}
+
+th {
+    background: #0099ff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #0e0b0b;
+}
+
+/* Button under table */
+.explore-btn {
+    margin-top: 20px;
+    background: #0048ff;
+    color: rgb(2, 2, 2);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background: #002ea6;
+}
+
+/* -------------------- INVEST INFO SECTION -------------------- */
+.invest-info {
+    text-align: center;
+    padding: 40px;
+    background: white;
+}
+
+.invest-info img {
+    margin-top: 20px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+/* -------------------- FOOTER -------------------- */
+footer {
+    padding: 30px;
+    text-align: center;
+    background: #222;
+    color: white;
+}
+
+footer h1 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* ABOUT PAGE STYLING */
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffffff;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto;
+    color: #000000;
+    line-height: 1.7;
+}
+
+/* Main about container */
+.about-container {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-container h2 {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 26px;
+    color: #111;
+}
+
+.about-container p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about-container ul {
+    font-size: 17px;
+    line-height: 1.7;
+    padding-left: 30px;
+}
+
+.about-container li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* CONTACT PAGE STYLING */
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffffff;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 10px auto;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Contact Container */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Contact Form */
+.contact-form {
+    flex: 1;
+    min-width: 280px;
+    max-width: 450px;
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0,123,255,0.4);
+}
+
+/* Submit Button */
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background: #0048ff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #002ea6;
+    transform: scale(1.02);
+}
+
+/* Contact Info Box */
+.contact-info {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 17px;
+    margin: 8px 0;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* ----------------------------------
+   BEGINNER PAGE STYLING (Green Theme)
+-----------------------------------*/
+
+body.beginner {
+    background: #f4fff4; /* soft light green background */
+    font-family: Arial, sans-serif;
+    color: #1a331a;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.beginner header {
+    background: #2ecc71; /* green theme */
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.beginner header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.beginner .quote {
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Main Section */
+.beginner main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.beginner main p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+.beginner table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.beginner th {
+    background: #27ae60;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.beginner td {
+    padding: 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Sunday Row Highlight */
+.beginner .rest-day {
+    background: #d0f8d0;
+    font-weight: bold;
+}
+
+/* List */
+.beginner ul {
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+.beginner li {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+/* Optional NAV (if you add items) */
+.beginner nav {
+    padding: 10px;
+}
+
+
+/* ----------------------------------
+   INTERMEDIATE PAGE STYLING (Yellow Theme)
+-----------------------------------*/
+
+body.intermediate {
+    background: #fffbea; /* soft warm yellow */
+    font-family: Arial, sans-serif;
+    color: #4d3f00;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.intermediate header {
+    background: #f1c40f; /* golden yellow */
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.intermediate header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.intermediate .quote {
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Main Section */
+.intermediate main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.intermediate main p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+.intermediate table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.intermediate th {
+    background: #d4ac0d; /* darker gold */
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.intermediate td {
+    padding: 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #f0e0a0;
+}
+
+/* Sunday Row Highlight */
+.intermediate .rest-day {
+    background: #fff3b0;
+    font-weight: bold;
+}
+
+/* List */
+.intermediate ul {
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+.intermediate li {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+/* Optional NAV (if used) */
+.intermediate nav {
+    padding: 10px;
+}
+
+
+/* ----------------------------------
+   ADVANCED PAGE STYLING (Red / Black Theme)
+-----------------------------------*/
+
+body.advanced {
+    background: #1a1a1a; /* deep dark background */
+    font-family: Arial, sans-serif;
+    color: #f8d7d7; /* soft light red-white text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.advanced header {
+    background: #c0392b; /* strong red */
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.advanced header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.advanced .quote {
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Main Section */
+.advanced main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.advanced main p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #ffdddd;
+}
+
+/* Table Styling */
+.advanced table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #2b2b2b;
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.advanced th {
+    background: #922b21;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.advanced td {
+    padding: 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #3c3c3c;
+    color: #ffe5e5;
+}
+
+/* Sunday Highlight */
+.advanced .rest-day {
+    background: #4b0000;
+    font-weight: bold;
+    color: #ffd0d0;
+}
+
+/* List */
+.advanced ul {
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+.advanced li {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #ffd3d3;
+}
+
+/* Optional NAV */
+.advanced nav {
+    padding: 10px;
+}
+
+
+
+
+
+/* ---------- LOGIN PAGE ---------- */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #fff;
+}
+
+/* Container centers everything */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 20px;
+}
+
+/* Card styling */
+.login-card {
+    background: #ffffff;
+    color: #000;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.login-card h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.login-card p {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Input fields */
+.login-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.login-card input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 6px rgba(37, 99, 235, 0.5);
+}
+
+/* Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.login-btn:hover {
+    background: #1d4ed8;
+    transform: scale(1.02);
+}
+
+/* Sign up link */
+.signup-text {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.signup-text a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #0f172a;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+/* ---------- SIGNUP + LOGIN PAGE ---------- */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #fff;
+}
+
+/* Center all auth pages */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 20px;
+}
+
+/* Card box */
+.login-card {
+    background: #ffffff;
+    color: #000;
+    width: 380px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+
+.login-card h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.login-card p {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Input fields */
+.login-card label {
+    float: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.login-card input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 6px rgba(37, 99, 235, 0.5);
+}
+
+/* Button styling */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.login-btn:hover {
+    background: #1d4ed8;
+    transform: scale(1.02);
+}
+
+/* Sign up / Login text */
+.signup-text {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.signup-text a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #0f172a;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#photo{
+    border-radius: 60px;
+}
